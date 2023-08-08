@@ -36,7 +36,7 @@ p {
 }
 
 .skills {
-    height: 200px;
+    height: auto;
     margin-bottom: 100px;    
 }
 
@@ -45,6 +45,10 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+.skill-sub {
+    width: 300px;
 }
 
 .no-bullets {
